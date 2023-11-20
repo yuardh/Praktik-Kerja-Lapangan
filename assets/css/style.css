@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "poppinsregular";
+  src: url(../font/poppins-regular-webfont.woff2) format("woff2"),
+    url(../font/poppins-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-padding-top: 56px;
+}
+
+body {
+  font-family: "poppinsregular", sans-serif;
+}
+
+.hero {
+  height: 100vh !important;
+  /* height: 650px; */
+  padding-top: 40px;
+  /* object-fit: cover; */
+  /* background-size: cover; */
+  /* background-position: bottom; */
+  /* background-repeat: no-repeat; */
+  background-color: #072541;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("#232D3F"); */
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  background-color: #191a19;
+}
+
+.card-img img:hover {
+  opacity: 0.5;
+}
+
+.about-img {
+  width: 265px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #191a19 !important;
+  background-color: #eee;
+}
+
+.slick-dots {
+  top: 210px;
+}
+
+.skill-item {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+  {
+  filter: invert(100%);
+}
+
+.certificate-img {
+  width: 75%;
+}
+

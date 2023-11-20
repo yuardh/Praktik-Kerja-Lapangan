@@ -1,0 +1,50 @@
+.dark-theme {
+  background-color: #343446;
+}
+
+.pure-light {
+  color: #171717;
+}
+
+.pure-light-dark {
+  color: #f7f7f7;
+}
+
+.semi-light {
+  background-color: #e5e5e5;
+  color: #171717;
+}
+
+.semi-light-dark {
+  background-color: #2d2d3b;
+  color: #f7f7f7;
+}
+
+.card-dark,
+.contact-form-dark {
+  background-color: #222831;
+}
+
+.social .fa-whatsapp:hover {
+  color: #14c142;
+}
+
+.social .fa-linkedin:hover {
+  color: #16b5ff;
+}
+
+.social .fa-facebook:hover {
+  color: #3b5998 ;
+}
+
+.social .fa-telegram-plane:hover {
+  color:#00acee;
+}
+
+.social .fa-instagram:hover {
+  color: #bc2a8d;
+}
+
+.social .fa-github:hover {
+  color: #b1b1b1;
+}

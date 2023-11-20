@@ -1,0 +1,38 @@
+@media (max-width: 1366px) {
+  .hero {
+    height: 700px;
+  }
+}
+
+/* Ukuran Medium */
+@media (min-width: 768px) {
+  .hero {
+    height: 600px;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .active {
+    border: 2px solid;
+  }
+}
+
+@media(max-width: 576px) {
+  .certificate-img {
+    width: 100%;
+  }
+}
+
+/* Ukuran Large */
+@media (min-width: 992px) {
+  .hero {
+    height: 100.5vh;
+  }
+
+  .profile-img {
+    width: 300px;
+    height: 300px;
+  }
+}
